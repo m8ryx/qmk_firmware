@@ -15,7 +15,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_BASE] = LAYOUT(
         LT(MO(_QWERTY), KC_TAB),  KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,    DT_UP, DT_PRNT, KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN,    KC_SLSH,
-        MEH_T(KC_ESC), LGUI_T(KC_A), LALT_T(KC_R),LCTL_T(KC_S),LSFT_T(KC_T), HYPR_T(KC_G),    DT_DOWN, XXXXXXX, HYPR_T(KC_M), RSFT_T(KC_N), RCTL_T(KC_E), RALT_T(KC_I), RGUI_T(KC_O), KC_QUOT,
+        MEH_T(KC_ESC), LGUI_T(KC_A), LALT_T(KC_R),LCTL_T(KC_S),LSFT_T(KC_T), HYPR_T(KC_G),    DT_DOWN, XXXXXXX, HYPR_T(KC_M), RSFT_T(KC_N), RCTL_T(KC_E), RALT_T(KC_I), RGUI_T(KC_O), MEH_T(KC_QUOT),
         KC_LSFT, KC_X,    KC_C,    KC_D,    KC_V,    KC_Z, QK_MAKE, QK_BOOT, KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH, KC_ENT,
                                    MO(_VI), MO(_FN), KC_BSPC, LT(MO(_SYM), KC_SPC), LT(MO(_SYM), KC_SPC), KC_ENT, MO(_FN),  KC_DEL
     ),
