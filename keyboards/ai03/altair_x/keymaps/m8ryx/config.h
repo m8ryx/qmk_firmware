@@ -1,3 +1,0 @@
-#define ENABLE_COMPILE_KEYCODE
-#define TAPPING_TERM 200
-
